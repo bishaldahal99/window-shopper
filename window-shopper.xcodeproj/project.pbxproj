@@ -54,14 +54,22 @@
 		361D7DA11F34CE7300B97829 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				361D7DB41F34CFA000B97829 /* Controller */,
 				361D7DA21F34CE7300B97829 /* AppDelegate.swift */,
-				361D7DA41F34CE7300B97829 /* ViewController.swift */,
 				361D7DA61F34CE7300B97829 /* Main.storyboard */,
 				361D7DA91F34CE7300B97829 /* Assets.xcassets */,
 				361D7DAB1F34CE7300B97829 /* LaunchScreen.storyboard */,
 				361D7DAE1F34CE7300B97829 /* Info.plist */,
 			);
 			path = "window-shopper";
+			sourceTree = "<group>";
+		};
+		361D7DB41F34CFA000B97829 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				361D7DA41F34CE7300B97829 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
