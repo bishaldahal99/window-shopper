@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		361D7DA31F34CE7300B97829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D7DA21F34CE7300B97829 /* AppDelegate.swift */; };
-		361D7DA51F34CE7300B97829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D7DA41F34CE7300B97829 /* ViewController.swift */; };
+		361D7DA51F34CE7300B97829 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D7DA41F34CE7300B97829 /* MainVC.swift */; };
 		361D7DA81F34CE7300B97829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361D7DA61F34CE7300B97829 /* Main.storyboard */; };
 		361D7DAA1F34CE7300B97829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361D7DA91F34CE7300B97829 /* Assets.xcassets */; };
 		361D7DAD1F34CE7300B97829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361D7DAB1F34CE7300B97829 /* LaunchScreen.storyboard */; };
+		361D7DB81F34D33C00B97829 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D7DB71F34D33C00B97829 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		361D7D9F1F34CE7300B97829 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		361D7DA21F34CE7300B97829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		361D7DA41F34CE7300B97829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		361D7DA41F34CE7300B97829 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		361D7DA71F34CE7300B97829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		361D7DA91F34CE7300B97829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		361D7DAC1F34CE7300B97829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		361D7DAE1F34CE7300B97829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361D7DB71F34D33C00B97829 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		361D7DA11F34CE7300B97829 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				361D7DB61F34D30D00B97829 /* Views */,
+				361D7DB51F34D16E00B97829 /* Controller */,
 				361D7DA21F34CE7300B97829 /* AppDelegate.swift */,
-				361D7DA41F34CE7300B97829 /* ViewController.swift */,
 				361D7DA61F34CE7300B97829 /* Main.storyboard */,
 				361D7DA91F34CE7300B97829 /* Assets.xcassets */,
 				361D7DAB1F34CE7300B97829 /* LaunchScreen.storyboard */,
 				361D7DAE1F34CE7300B97829 /* Info.plist */,
 			);
 			path = "window-shopper";
+			sourceTree = "<group>";
+		};
+		361D7DB51F34D16E00B97829 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				361D7DA41F34CE7300B97829 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		361D7DB61F34D30D00B97829 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				361D7DB71F34D33C00B97829 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361D7DA51F34CE7300B97829 /* ViewController.swift in Sources */,
+				361D7DB81F34D33C00B97829 /* CurrencyTxtField.swift in Sources */,
+				361D7DA51F34CE7300B97829 /* MainVC.swift in Sources */,
 				361D7DA31F34CE7300B97829 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +336,7 @@
 				361D7DB31F34CE7300B97829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
